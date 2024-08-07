@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutUsButton = document.getElementById('aboutUs');
 
     aboutUsButton.addEventListener('click', (event) => {
-        event.preventDefault(); // Evita la acción predeterminada del enlace
+        event.preventDefault(); 
         Swal.fire({
             title: 'About Us',
             text: 'Simonetta, Daniel\n (Comisión 57725)',
